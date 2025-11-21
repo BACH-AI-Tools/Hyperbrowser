@@ -35,7 +35,7 @@ Add to `~/.cursor/mcp.json` like this:
   "mcpServers": {
     "hyperbrowser": {
       "command": "npx",
-      "args": ["-y", "hyperbrowser-mcp"],
+      "args": ["-y", "bach-hyperbrowser-mcp"],
       "env": {
         "HYPERBROWSER_API_KEY": "YOUR-API-KEY"
       }
@@ -51,7 +51,7 @@ Add to your `./codeium/windsurf/model_config.json` like this:
   "mcpServers": {
     "hyperbrowser": {
       "command": "npx",
-      "args": ["-y", "hyperbrowser-mcp"],
+      "args": ["-y", "bach-hyperbrowser-mcp"],
       "env": {
         "HYPERBROWSER_API_KEY": "YOUR-API-KEY"
       }
@@ -92,7 +92,7 @@ This is an example config for the Hyperbrowser MCP server for the Claude Desktop
   "mcpServers": {
     "hyperbrowser": {
       "command": "npx",
-      "args": ["--yes", "hyperbrowser-mcp"],
+      "args": ["--yes", "bach-hyperbrowser-mcp"],
       "env": {
         "HYPERBROWSER_API_KEY": "your-api-key"
       }
